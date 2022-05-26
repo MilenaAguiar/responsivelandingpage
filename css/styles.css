@@ -42,18 +42,15 @@ height: 22px;
 
 .conteudo{
 background-color: #0D1423;
-
 border-radius: 8px;
 width: 431px;
 height: 150px;
-margin-top: 18px;
 
 display: flex;
 align-items: center;
 flex-direction: column; 
 
 }
-
 
 .conteudo-icone{
 
