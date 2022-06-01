@@ -24,15 +24,14 @@ background-color: #2B2E34;
     flex-direction: column;
     align-items: center;
     gap: 53px;
-    width:431px;
     margin: auto;
+    padding: 0 30px;
 }
 
 .introducao{
 height: 132px;
 gap: 14px;
-width: 90vw;
-
+width: 100%;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -63,7 +62,7 @@ height: 22px;
 .conteudo{
 background-color: #0D1423;
 height: 150px;
-width: 90vw;
+width: 100%;
 border-radius: 8px;
 
 display: flex;
