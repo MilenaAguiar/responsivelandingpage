@@ -1,5 +1,22 @@
 body{
 background-color: #2B2E34;
+
+}
+
+.cabecalho{
+
+}
+
+.cabecalho-logo{
+
+}
+
+.cabecalho-link{
+
+}
+
+.cabecalho-imagem{
+
 }
 
 .principal{
@@ -7,12 +24,14 @@ background-color: #2B2E34;
     flex-direction: column;
     align-items: center;
     gap: 53px;
+    width:431px;
+    margin: auto;
 }
 
 .introducao{
-width: 431px;
 height: 132px;
 gap: 14px;
+width: 90vw;
 
 display: flex;
 align-items: center;
@@ -32,6 +51,7 @@ line-height: 48px;
 
 .introducao-paragrafo{
 color: #AFC0E2;
+text-align: ;
 
 font-family: 'Nunito', sans-serif;
 font-weight: 700;
@@ -42,9 +62,9 @@ height: 22px;
 
 .conteudo{
 background-color: #0D1423;
-border-radius: 8px;
-width: 431px;
 height: 150px;
+width: 90vw;
+border-radius: 8px;
 
 display: flex;
 align-items: center;
@@ -53,7 +73,8 @@ flex-direction: column;
 }
 
 .conteudo-icone{
-
+    position: relative; 
+    top: -18px; 
 }
 
 .conteudo-paragrafo{
