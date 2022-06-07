@@ -1,14 +1,22 @@
 body{
-background-color: #2B2E34;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 
+    background-color: #2B2E34;
+    background-image: url(/img/img-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .cabecalho{
-
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 32px 40px 60px;
 }
 
 .cabecalho-logo{
-
+    
 }
 
 .cabecalho-link{
@@ -16,57 +24,47 @@ background-color: #2B2E34;
 }
 
 .cabecalho-imagem{
-
+    
 }
 
 .principal{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 53px;
     margin: auto;
     padding: 0 30px;
+    text-align: center;
 }
 
 .introducao{
-height: 132px;
-gap: 14px;
-width: 100%;
-display: flex;
-align-items: center;
-flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .introducao-titulo{
-color: #FFFFFF;
-text-align: center;
-
-font-family: 'Nunito', sans-serif;
-font-weight: 700;
-font-size: 35px;
-line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    font-size: 35px;
+    line-height: 48px;
 }
 
 .introducao-paragrafo{
-color: #AFC0E2;
-font-family: 'Nunito', sans-serif;
-font-weight: 700;
-font-size: 16px;
-height: 22px;
-
+    color: #AFC0E2;
+    font-size: 16px;
+    padding: 0 40px;
 }
 
 .conteudo{
-background-color: #0D1423;
-height: 150px;
-width: 100%;
-border-radius: 8px;
-
-display: flex;
-align-items: center;
-flex-direction: column; 
-
+    background-color: #0D1423;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
 }
 
 .conteudo-icone{
@@ -75,19 +73,13 @@ flex-direction: column;
 }
 
 .conteudo-paragrafo{
-color: #AFC0E2;
-
-font-family: 'Nunito', sans-serif;
-font-size: 14px;
-line-height: 60px;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #AFC0E2;
+    padding: 27px 30px 60px 30px;
 }
 
 .open-modal{
-color: #00C2FF;
-font-size: 14px;
-font-family: 'Nunito', sans-serif;
+    color: #00C2FF;
+    font-size: 14px;
 }
 
 .card {
