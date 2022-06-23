@@ -15,7 +15,7 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 40px 32px 40px 60px;
-    
+    position: relative;
 }
 
 .cabecalho-menu{
@@ -36,6 +36,18 @@ body{
     background-color: #2B2E34;
     border-radius: 0px 0px 8px 8px;
     color: #AFC0E2;
+    top: 124px;
+    width: 100%;
+}
+
+.menu-item-link {
+    background-color: #2B2E34;
+    /* background-color: pink; */
+    color: #FFFFFF;
+    padding: 12px 30px;
+    display: block;
+    border-bottom: 1px solid #AFC0E2;
+    font-weight: 600;
 }
 
 .principal{
