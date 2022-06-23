@@ -6,6 +6,8 @@ body{
     background-image: url(/img/img-background.png);
     background-repeat: no-repeat;
     background-position: bottom;
+
+    position: relative;
 }
 
 .cabecalho{
@@ -13,18 +15,27 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 40px 32px 40px 60px;
+    
 }
 
-.cabecalho-logo{
+.cabecalho-menu{
     
 }
 
 .cabecalho-link{
-
+    
+  
 }
 
 .cabecalho-imagem{
     
+} 
+
+.cabecalho-inside-menu{
+    position: absolute;
+    background-color: #2B2E34;
+    border-radius: 0px 0px 8px 8px;
+    color: #AFC0E2;
 }
 
 .principal{
