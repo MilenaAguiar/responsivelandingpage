@@ -15,7 +15,7 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 40px 32px 40px 60px;
-    position: relative;
+    
 }
 
 .cabecalho-menu{
@@ -33,7 +33,6 @@ body{
 
 .cabecalho-inside-menu{
     position: absolute;
-    background-color: #2B2E34;
     border-radius: 0px 0px 8px 8px;
     color: #AFC0E2;
     top: 124px;
@@ -48,6 +47,12 @@ body{
     display: block;
     border-bottom: 1px solid #AFC0E2;
     font-weight: 600;
+    text-decoration: none;
+}
+
+a.menu-item-link:hover {
+    background-color: #0D1423;
+    color: #00C2FF;
 }
 
 .principal{
