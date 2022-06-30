@@ -33,10 +33,10 @@ body{
 
 .cabecalho-inside-menu{
     position: absolute;
-    border-radius: 0px 0px 8px 8px;
     color: #AFC0E2;
     top: 124px;
     width: 100%;
+    z-index: 10; /* Utilizamos para deixar o menu na frente de tudo. O ícone de uma section estava ficando na frente dele. */
 }
 
 .menu-item-link {
@@ -45,14 +45,22 @@ body{
     color: #FFFFFF;
     padding: 12px 30px;
     display: block;
-    border-bottom: 1px solid #AFC0E2;
     font-weight: 600;
     text-decoration: none;
+    line-height: 1.5;
+    /* Explicação do uso de box-shadow para deixar a borda dentro do elemento
+    https://www.delftstack.com/pt/howto/css/css-inner-border/#use-a-propriedade-box-shadow-para-definir-a-borda-interna-em-css */
+    box-shadow: 0px -1px 0px 0px #afc0e2 inset;
 }
 
 a.menu-item-link:hover {
     background-color: #0D1423;
     color: #00C2FF;
+}
+
+.last-menu-item-link {
+    box-shadow: 0px 0px 0px 0px #afc0e2 inset;
+    border-radius: 0px 0px 8px 8px;
 }
 
 .principal{
