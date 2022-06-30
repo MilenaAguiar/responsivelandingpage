@@ -176,6 +176,7 @@ a.menu-item-link:hover {
     background-color: #2B2E34;
     border-radius: 8px;
     color: white;
+    display: none;
     padding-bottom: 18px;
     padding-top: 18px;
     padding-left: 23px;
@@ -192,4 +193,8 @@ a.menu-item-link:hover {
     font-size: 16px;
     line-height: 150%;
     margin-bottom: 17px;
+}
+/* A classe .show faz a modal aparecer */
+.modal.show {
+    display: block;
 }
