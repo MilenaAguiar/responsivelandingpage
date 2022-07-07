@@ -200,3 +200,19 @@ a.menu-item-link:hover {
 .modal.show {
     display: block;
 }
+
+.duas-colunas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Tablet */
+@media (min-width: 834px) {
+    /* STYLES HERE */
+    .duas-colunas {
+        flex-direction: row;
+    }
+}
