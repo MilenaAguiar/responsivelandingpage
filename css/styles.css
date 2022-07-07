@@ -213,6 +213,10 @@ a.menu-item-link:hover {
 @media (min-width: 834px) {
     /* STYLES HERE */
     .duas-colunas {
+        align-items: stretch;
         flex-direction: row;
+    }
+    .card {
+        margin-right: 0;
     }
 }
