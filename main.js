@@ -3,9 +3,9 @@ const openModal = document.querySelector('.open-modal')
 const closeModal = document.querySelector ('.button')
 
 openModal.onclick = function () {
-     modal.classList.add('modal.show')
+    modal.classList.add('show');
 }
 
 closeModal.onclick = function () {
-    modal.classList.remove('modal.show')
+    modal.classList.remove('show');
 }
