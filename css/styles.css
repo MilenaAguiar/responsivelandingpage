@@ -26,15 +26,23 @@ body {
     justify-content:space-between;
     align-items: center;
     padding: 40px 32px 40px 60px;
-    
 } 
+
+.cabecalho-link {
+    background-color: #2B2E34;
+}
 
 .cabecalho-inside-menu{
     position: absolute;
+    left: 100vw;
     color: #AFC0E2;
     top: 124px;
     width: 100%;
     z-index: 10; /* Utilizamos para deixar o menu na frente de tudo. O ícone de uma section estava ficando na frente dele. */
+}
+
+.cabecalho-inside-menu_ativo {
+    left: 0;
 }
 
 .menu-item-link {
@@ -161,6 +169,7 @@ a.menu-item-link:hover {
 
 .open-modal {
     background-color: #0D1423;
+
 }
 
 .modal {

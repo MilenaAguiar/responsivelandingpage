@@ -9,3 +9,11 @@ openModal.onclick = function () {
 closeModal.onclick = function () {
     modal.classList.remove('show');
 }
+
+const menuBotao = document.querySelector('.cabecalho-link')
+const menu = document.querySelector('.cabecalho-inside-menu')
+
+menuBotao.addEventListener('click', () =>{
+    menu.classList.toggle('cabecalho-inside-menu_ativo')
+})
+
