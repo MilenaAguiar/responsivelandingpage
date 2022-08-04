@@ -29,8 +29,9 @@ body {
 }
 
 .cabecalho-inside-menu{
+    display: none;
     position: absolute;
-    left: 100vw;
+    left: 0;
     color: #AFC0E2;
     top: 124px;
     width: 100%;
@@ -38,7 +39,7 @@ body {
 }
 
 .cabecalho-inside-menu_ativo {
-    left: 0;
+    display: block;
 }
 
 .menu-item-link {

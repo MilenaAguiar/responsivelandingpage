@@ -1,3 +1,6 @@
+/* 
+    Modal
+*/
 const modal = document.querySelector('.modal')
 const openModal = document.querySelector('.open-modal')
 const closeModal = document.querySelector ('.button')
@@ -10,6 +13,9 @@ closeModal.onclick = function () {
     modal.classList.remove('show');
 }
 
+/* 
+    Menu
+*/
 const menuBotao = document.querySelector('.cabecalho-link')
 const menu = document.querySelector('.cabecalho-inside-menu')
 
