@@ -169,11 +169,24 @@ a.menu-item-link:hover {
 
 }
 
+.modal-wrapper {
+    display: none;
+}
+
+.modal-scrim {
+    background-color: #161718;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .modal {
     background-color: #2B2E34;
     border-radius: 8px;
     color: white;
-    display: none;
     padding-bottom: 18px;
     padding-top: 18px;
     padding-left: 23px;
@@ -188,6 +201,7 @@ a.menu-item-link:hover {
     transform: translate(-50%, -50%);
     width: 100%;
     box-sizing: border-box;
+    z-index: 99;
 }
 
 .modal-title {
@@ -204,7 +218,7 @@ a.menu-item-link:hover {
     margin-bottom: 17px;
 }
 /* A classe .show faz a modal aparecer */
-.modal.show {
+.modal-wrapper.show {
     display: block;
 }
 
