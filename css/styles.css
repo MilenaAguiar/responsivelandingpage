@@ -28,8 +28,26 @@ body {
     background-color: #2B2E34;
 }
 
-.cabecalho-inside-menu{
+.menu-wrapper {
     display: none;
+}
+
+.menu-wrapper_ativo {
+    display: block;
+}
+
+.menu-scrim{
+    background-color: #161718;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.cabecalho-inside-menu{
     position: absolute;
     left: 0;
     color: #AFC0E2;
@@ -38,9 +56,6 @@ body {
     z-index: 10; /* Utilizamos para deixar o menu na frente de tudo. O ícone de uma section estava ficando na frente dele. */
 }
 
-.cabecalho-inside-menu_ativo {
-    display: block;
-}
 
 .menu-item-link {
     background-color: #2B2E34;

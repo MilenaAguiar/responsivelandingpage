@@ -17,9 +17,9 @@ closeModal.onclick = function () {
     Menu
 --------------*/
 const menuBotao = document.querySelector('.cabecalho-link')
-const menu = document.querySelector('.cabecalho-inside-menu')
+const menu = document.querySelector('.menu-wrapper')
 
 menuBotao.addEventListener('click', () =>{
-    menu.classList.toggle('cabecalho-inside-menu_ativo')
+    menu.classList.toggle('menu-wrapper_ativo')
 })
 
