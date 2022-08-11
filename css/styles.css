@@ -7,6 +7,11 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.container {
+    max-width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .button {
     background-color: #00C2FF;
@@ -277,5 +282,9 @@ a.menu-item-link:hover {
 @media (min-width: 1193px) {
     .principal {
         padding-bottom: 363px;
+    }
+    .logo {
+        width: 168px;
+        height: auto;
     }
 }
