@@ -245,7 +245,9 @@ a.menu-item-link:hover {
     width: 100%;
 }
 
-/* Tablet */
+/* ----------- 
+    Tablet 
+-------------- */
 @media (min-width: 834px) {
     /* STYLES HERE */
     .duas-colunas {
@@ -257,5 +259,23 @@ a.menu-item-link:hover {
     }
     .modal {
         margin: auto;
+    }
+    body {
+        background-image: url(/img/img-background-tablet-desktop.png);
+    }
+    .principal {
+        padding: 0 30px 290px;
+    }
+    .introducao-titulo {
+        font-size: 42px;
+    }
+}
+
+/* ----------- 
+    Desktop 
+-------------- */
+@media (min-width: 1193px) {
+    .principal {
+        padding-bottom: 363px;
     }
 }
