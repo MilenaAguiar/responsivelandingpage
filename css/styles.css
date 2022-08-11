@@ -269,6 +269,18 @@ a.menu-item-link:hover {
     .introducao-titulo {
         font-size: 42px;
     }
+    .introducao-paragrafo {
+        font-size: 20px;
+    }
+    .conteudo-paragrafo p{
+        font-size: 16px;
+    }
+    .card {
+        font-size: 16px;
+    }
+    .open-modal {
+        font-size: 16px;
+    }
 }
 
 /* ----------- 
