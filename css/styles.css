@@ -27,6 +27,7 @@ body {
     justify-content:space-between;
     align-items: center;
     padding: 40px 32px 40px 60px;
+    flex-wrap: wrap;
 } 
 
 .cabecalho-link {
@@ -39,6 +40,7 @@ body {
 
 .menu-wrapper_ativo {
     display: block;
+    width: 100%;
 }
 
 .menu-scrim{
@@ -285,6 +287,27 @@ a.menu-item-link:hover {
     }
     .open-modal {
         font-size: 16px;
+    }
+    .menu-wrapper {
+        display: block;
+    }
+    .menu-wrapper_ativo {
+        width: auto;
+    }
+    .menu-scrim {
+        display: none;
+    }
+    .cabecalho-inside-menu {
+        position: relative;
+        top: 0;
+        display: flex;
+    }
+    .cabecalho-menu {
+        display: none;
+    }
+    .menu-item-link {
+        box-shadow: none;
+        padding: 11px 19px 9px;
     }
 }
 
