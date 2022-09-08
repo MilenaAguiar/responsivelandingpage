@@ -160,7 +160,6 @@ a.menu-item-link:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
     margin-right: 30px;
     margin-top: 70px;
     padding-bottom: 43px;
@@ -244,22 +243,18 @@ a.menu-item-link:hover {
     display: block;
 }
 
-.duas-colunas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-
 /* ----------- 
     Tablet 
 -------------- */
 @media (min-width: 834px) {
     /* STYLES HERE */
-    .duas-colunas {
-        align-items: stretch;
-        flex-direction: row;
+    .sections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 27px;
+    }
+    .section-1{
+        grid-column: span 2;
     }
     .card {
         margin-right: 0;
@@ -271,7 +266,7 @@ a.menu-item-link:hover {
         background-image: url(/img/img-background-tablet-desktop.png);
     }
     .principal {
-        padding: 0 30px 290px;
+        padding: 70px 60px 290px;
     }
     .introducao-titulo {
         font-size: 42px;
@@ -317,6 +312,14 @@ a.menu-item-link:hover {
 @media (min-width: 1193px) {
     .principal {
         padding-bottom: 363px;
+    }
+    .sections{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 27px;
+    }
+    .section-1{
+        grid-column: span 1;
     }
     .logo {
         width: 168px;
