@@ -304,6 +304,9 @@ a.menu-item-link:hover {
         box-shadow: none;
         padding: 11px 19px 9px;
     }
+    .last-menu-item-link {
+        border-radius: 0;
+    }
 }
 
 /* ----------- 
