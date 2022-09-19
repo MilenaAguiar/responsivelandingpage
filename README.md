@@ -7,6 +7,12 @@ Projeto de estudo desenvolvido para o desenvolvimento de uma Landing Page Respon
 * CSS
 * JavaScript
 ## Como baixar
+  
+  ### Clonar repositório
+  $ git clone https://github.com/NayraCruz/ecoleta.git
+  
+  ### Entrar no diretório
+  Abrir pasta responsivelandingpage e clicar no arquivo index.html para visualizar o projeto.
 ## Interface
 ### Resolução Mobile
 ![](resolucao-mobile-gif.gif)
