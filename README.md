@@ -9,13 +9,13 @@ JavaScript
 ## Como baixar
 ## Interface
 ### Resolução Mobile
-<img src="img/resolucao-mobile-gif">
+![](resolucao-mobile-gif.gif)
 
 ### Resolução Tablet 
-<img src="img/resolucao-tablet-gif">
+![](resolucao-tablet-gif.gif)
 
 ### Resolução Desktop
-<img src="img/resolucao-desktop-gif"
+![](resolucao-desktop-gif.gif)
 
 ## Créditos
 <a href="https://www.linkedin.com/in/nayra-cruz/">Nayra Cruz</a>
