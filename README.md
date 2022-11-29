@@ -1,7 +1,8 @@
 # Responsive Landing page
 
 ## Sobre o projeto
-Projeto de estudo desenvolvido para o desenvolvimento de uma Landing Page Responsiva, utilizando as tecnologias HTML, CSS e Javascript, em mentorias com a supervisão de <a href="https://www.linkedin.com/in/nayra-cruz/">Nayra Cruz</a> baseado no projeto <a href="https://www.figma.com/file/TnSdpyVrQKvGAVdIgOdsdK/Responsive-Landing-Page-Mentoria-Milena">Responsive Landing Page</a>.
+Projeto de estudo desenvolvido para o desenvolvimento de uma Landing Page Responsiva, utilizando as tecnologias HTML, CSS e Javascript, em mentorias com a supervisão de <a href="https://www.linkedin.com/in/nayra-cruz/">Nayra Cruz</a> baseado no projeto <a href="https://www.figma.com/file/TnSdpyVrQKvGAVdIgOdsdK/Responsive-Landing-Page-Mentoria-Milena">Responsive Landing Page</a>. 
+<a href="https://responsivelandingpage2.netlify.app">Site do projeto concluído.</a>
 ## Tecnologias utilizadas
 * HTML
 * CSS
